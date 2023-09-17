@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/008d4cfb20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css">
+    <title>Login</title>
+</head>
+<body>
+
+    <!--Login-->
+
+    <div class="container login">
+        
+        <header>Login</header>
+        <form action="#">
+            <div class="field EM">
+                <div class="input-area">
+                    <input type="email" placeholder="Email" class="mail">
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+            <div class="field PM">
+                <div class="input-area">
+                    <input type="password" placeholder="Password" class="password">
+                    <i class="icon fa-solid fa-lock"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            <div class="pass-link"><a href="#">Forget password?</a></div>
+            <input type="submit" value="login"></input>
+        </form>
+        <div class="Wa">
+            <span>Don't have an account? <a href="#">Sign up</a></span>
+        </div>
+
+    </div>
+       
+        <!--Sign up-->
+
+    <div class="container sign">
+
+        <header>Sign up</header>
+        <form action="#" class="form2">
+            <div class="field AN">
+                <div class="input-area">
+                    <input type="text" placeholder="Agency name" class="AgencyNmae">
+                    <i class="icon fa-solid fa-user"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Agency name can't be blank</div>
+            </div>
+            <div class="field AI">
+                <div class="input-area">
+                    <input type="text" placeholder="Agency ID" class="AgencyID">
+                    <i class="icon fa-solid fa-user"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Agency ID can't be blank</div>
+            </div>
+            <div class="field AT">
+                <div class="input-area">
+                    <select name="Agency" class="AgencyType">
+                        <option value="" selected disabled hidden>-- Select your Agency --</option>
+                        <option value="1">Fire Department</option>
+                        <option value="2">Ambulance Services</option>
+                        <option value="3">Medical</option>
+                        <option value="4">Animal Rescue</option>
+                        <option value="5">Police</option>
+                        <option value="6">NGO</option>
+                        <option value="7">Air Rescue</option>
+                        <option value="8">Volunteer Search and Rescue</option>
+                    </select>
+                    <i class="icon fa-solid fa-hand-holding-hand"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">please select the Agency of yours</div>
+            </div>
+            <div class="field Email">
+                <div class="input-area">
+                    <input type="text" placeholder="Email" class="mail" inputmode="email">
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+            <div class="field PN">
+                <div class="input-area">
+                    <input type="text" placeholder="Phone number" class="Phone" maxlength="10" inputmode="numeric">
+                    <i class="icon fa-solid fa-phone"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Phone number can't be blank</div>
+            </div>
+            <div class="field PM">
+                <div class="input-area">
+                    <input type="password" placeholder="Password" class="password">
+                    <i class="icon fa-solid fa-lock"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            <div class="field CPM">
+                <div class="input-area">
+                    <input type="password" placeholder="Confirm password" class="cpassword">
+                   <i class="icon fa-solid fa-lock"></i>
+                    <i class="error error-icon fa-solid fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Confirm Password can't be blank</div>
+            </div>
+            <input type="submit" value="Sign up"></input>
+        </form>
+        <div class="WM">
+            <span>Already had a account? <a href="#">Login</a></span>
+        </div>
+        
+    </div>
+    
+    <script src="javascript.js"></script>
+    <script src="javascript2.js"></script>
+
+</body>
+</html>
